@@ -1,0 +1,15 @@
+{
+  "name": "Time 2 Go",
+  "description" : "Do not OT",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://search.kmb.hk/kmbwebsite/"],
+      "js": ["index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
